@@ -10,21 +10,44 @@
 </head>
 
 <body>
+    <div class="navbar">
+        <div class="logosection">
+            <div><img src="./assets/DOBI POPOTE logo.png" alt="" width="80px" height="80px"></div>
+        </div>
+        <div class="menuitems">
+            <div><a href="#">Home</a></div>
+            <div><a href="#">About</a></div>
+            <div> <a href="#">Services</a></div>
+            <div>  <a href="contactus.html">Contact Us</a></div>
+        </div>
+    </div>
     <div id="topic">
         <p>Services Request Form</p>
     </div>
-    <div id="navigation bar"
-        <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>SERVICES</li>
-            <li>CONTACTS</li>
-        </ul>
-       
+    <      
         <div id="inputs">
             <form>
-                Name: <input type="textbox">          address: <input type="search"> <br>
-                Mobile: <input type="tel">          servuce: <input  type="search"> <br>
+                <label for="name">                       
+                    Name
+                </label>
+                <input type="textbox" id="name">  
+                <label for="Address">
+                    Address
+                </label>
+                <input type="text"  id="address">
+                <label for="Mobile">
+                    Mobile
+                </label>
+                <input type="tel"  id="Mobile">
+                <label for="Type of service">
+                    Type of service
+                </label>
+                <input list="type of service" name="name of service">
+                <datalist id="type of service">
+                    <option value="bedsheets and duvet"></option>
+                    <option value="jeans, khaki, shirts and t-shirts"></option>
+                    <option value="suits"></option>
+                </datalist>
 
             </form>
 
@@ -34,7 +57,7 @@
 
             <button>Submit</button>
 
-        </div>
+        </>
         
      </div>        
 </body>
