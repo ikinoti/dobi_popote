@@ -42,3 +42,36 @@
   padding: 5px;
   border-radius: 10px;
 }
+
+/* services */
+#services{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* flex: 4; */
+  /* flex-wrap: wrap; */
+}
+.serviceProvider{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 18%;
+  text-align: center;
+  padding: 20px;
+  margin: 5px 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+#provImg > img{
+  width: 75%;
+  border: 5px solid lightgray;
+  border-radius: 3px;
+}
+#provInfo > button{
+  padding: 10px;
+  background-color: rgb(210, 235, 250);
+  border-radius: 5px;
+}
+#provInfo > button > a{
+  text-decoration: none;
+  color: black;
+}
