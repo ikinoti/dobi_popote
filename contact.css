@@ -1,6 +1,7 @@
 body{
     background-image: url(/assets/contactBG.png);
     background-attachment: fixed;
+    font-family: Poppins;
 }
 
 /* navbar section starts here */
@@ -20,7 +21,7 @@ body{
 }
 .menuitems div:hover{
     background-color: aliceblue;
-    color: #18A0FB;
+    color: black;
 }
 .logosection{
     width: 50%;
@@ -55,7 +56,15 @@ body{
     text-align: center;
     color: black;
 }
+/* Forms here */
 
+.forms{
+    font-size: 18px;
+    
+}
+.mailer{
+    
+}
 /* footer styling starts here */
 footer {
     text-align: center;
