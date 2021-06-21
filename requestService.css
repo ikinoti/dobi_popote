@@ -87,9 +87,8 @@ footer h1{
     height: 130px;
 }
 
-button{
-    color: #18A0FB;
-}
+
+
 #name-address{
     display: flex;
     flex-direction: column;
@@ -105,4 +104,21 @@ button{
     height: 49px;
     width: 400px;
 }
+#tabs{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border:100px;
+    margin: 50px;
+}
+#describe{
+    text-align: center;
+    margin: 50px;
+}   
+
+#button{
+    color: #18A0FB;
+    text-align: center;
+}
+
 
