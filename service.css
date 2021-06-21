@@ -1,0 +1,31 @@
+/* navbar section starts here */
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #18A0FB;
+  padding: 30px 30px 30px 30px;
+}
+.navbar a{
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.menuitems div:hover{
+  background-color: aliceblue;
+  color: #18A0FB;
+}
+.logosection{
+  width: 50%;
+}
+.logosection img{
+  border-radius: 50%;
+}
+.menuitems{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+/* menu section ends here */
