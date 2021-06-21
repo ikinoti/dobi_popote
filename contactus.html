@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="scripter.js"></script>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Contact Us</title>
 </head>
 <body>
+    <!--Navbar ends here-->
+    <div class="navbar">
+        <div class="logosection">
+            <div><img src="/assets/DOBI POPOTE logo.png" alt="" width="80px" height="80px"></div>
+        </div>
+        <div class="menuitems">
+            <div><a href="#">Home</a></div>
+            <div><a href="#">About</a></div>
+            <div> <a href="#">Services</a></div>
+            <div>  <a href="contactus.html">Contact Us</a></div>
+        </div>
+    </div>
+        <!--Navbar ends Here-->
+<div class="maindetails">  
     <div class="details">
         <div class="visitus">
             <h2>Visit Us</h2>
@@ -30,6 +44,80 @@
         </div>
 
     </div>
+    <div class="cform">
+        <h2>Let us contact You.</h2>
+        <p>Leave us your contact information we shall get back to you as soon as possible</p>
+        <div class="subcform">
+     <form name="RegForm" action="" 
+            onsubmit="return index.html()" method="post">
+          <p>Name: <input type="text" name="Name" ></p>
+          <br />
+          <p>Address: <input type="text" name="Address" /></p>
+          <br />
+          <p>E-mail Address: <input type="text" name="EMail" /></p>
+          <br />
+          <p>Password: <input type="password" name="Password" /></p>
+          <br />
+          <p>Telephone: <input type="text" name="Telephone" /></p>
+          <br />
+          
     
+          <p>
+              Select Type of service
+              <select type="text" value="" name="Subject">
+                  <option></option>
+                  <option>House Cleaning</option>
+                  <option>General cleaning</option>
+                  <option>Clothes only</option>
+                  <option>Compound Cleaning</option>
+                  <option>Pet grooming</option>
+              </select>
+          </p>
+          <br />
+          <br />
+          <p>Comments: <textarea cols="55" name="Comment"> </textarea></p>
+          <p>
+              <input type="submit" name="Submit" />
+              <input type="reset"  value="Reset" name="Reset" />
+          </p>
+    </form>
+        </div>
+
+
+
+    </div>
+</div>
+    <!--Footer starts here-->
+    <footer>
+        <h1>Contact Us</h1>
+       <div class="submain">
+           <div class="sub1">
+                <h2>Visit Us Today</h2>
+                <p>
+                    3rd Floor <br>
+                    Ngong Lane plaza <br>
+                    ngong road- Nairobi
+                </p>
+           </div>
+           <div class="sub2">
+                <h2>Call Us</h2>
+                <p>
+                    0726 832 007 <br>
+                    0726 832 007 <br>
+                    0726 832 007 <br>
+                </p>
+           </div>
+           <div >
+               <h2>Email Us Today</h2>
+               <p>
+                   Allanlimo02@gmail.com <br>
+                   Allanlimo02@gmail.com <br>
+                   Allanlimo02@gmail.com <br>
+               </p>
+           </div>
+       </div>
+        ©2021 | All rights reserved
+    </footer>
+    <!--Footer ends here-->
 </body>
 </html>
