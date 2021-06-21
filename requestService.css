@@ -1,0 +1,53 @@
+#topic{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+
+   color: #000000;
+}
+
+#navigationbar{
+
+text-align: center;
+
+}
+
+html{
+    background-color:;
+}
+
+
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    background-color: #c4c4c4;
+    border-radius: 38px;
+}
+footer {
+    text-align: center;
+    padding-top: 30px;
+    background-color: #18A0FB;
+    color: wheat;
+    padding-bottom: 70px;
+    font-size: 18px;
+}
+footer h1{
+    font-weight: 100;
+}
+.submain{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+.submain h2{
+    font-weight: 100;
+}
