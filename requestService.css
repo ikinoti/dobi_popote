@@ -24,6 +24,8 @@ html{
 #inputs{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    flex-direction: ;
     align-items: center;
 }
 
@@ -80,3 +82,27 @@ footer h1{
     justify-content: space-evenly;
     width: 50%;
 }
+#expectations{
+    width: 765px;
+    height: 130px;
+}
+
+button{
+    color: #18A0FB;
+}
+#name-address{
+    display: flex;
+    flex-direction: column;
+    height: 49px;
+    width: 400px;
+    float: left;
+
+}
+#mobile-type{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: 49px;
+    width: 400px;
+}
+
