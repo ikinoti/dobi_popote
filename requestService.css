@@ -97,8 +97,15 @@ body{
     height: 49px;
     width: 400px;
     float: left;
+    margin:20px; 
 
 }
+ #name{
+    margin: 5px;
+}
+#address{
+    margin: 5px;
+} 
 
 #mobile-type{
     display: flex;
@@ -106,6 +113,15 @@ body{
     float: right;
     height: 49px;
     width: 400px;
+    margin: 20px;
+}
+#mobile{
+    margin: 5px;
+    padding: 5px;
+}
+#nameofservice{
+    margin: 5px;
+    padding: 5px;
 }
 #tabs{
     display: flex;
