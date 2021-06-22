@@ -14,21 +14,24 @@ function validater(){
     }
     if(sName.value==''){
         alert('Dear '+fName.value+' '+sName.value +'Enter your second name');
-        fName.focus();
+        sName.focus();
         return false;
     }
     if(phone.value==''){
         alert('Dear '+fName.value+' '+'Enter your phone number')
-        fName.focus();
+        phone.focus();
+        return false;
 
     }
     if(mail.value==''){
         alert('Dear '+fName.value+' '+'Enter your Email address')
-        mail.focus()
+        mail.focus();
+        return false;
+
 
     }
     
 
     alert('Thank you '+fName.value+'For submitting this form')
-    // return true;
+     return true;
 };
