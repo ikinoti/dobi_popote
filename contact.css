@@ -60,11 +60,9 @@ body{
 
 .forms{
     font-size: 18px;
-    
+    justify-content: space-around;   
 }
-.mailer{
-    
-}
+
 /* footer styling starts here */
 footer {
     text-align: center;
@@ -86,4 +84,5 @@ footer h1{
 .submain h2{
     font-weight: 100;
 }
+
 /* Footer stylling ends here */
