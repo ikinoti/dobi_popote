@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+  margin: auto;
+}
 /* navbar section starts here */
 .navbar{
   display: flex;
