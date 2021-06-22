@@ -20,7 +20,7 @@ text-align: center;
 }
 
 html{
-    background-color:;
+    
 }
 
 
@@ -29,7 +29,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex-direction: ;
+    
     align-items: center;
 }
 
