@@ -1,12 +1,16 @@
-function validate(){
-    var name= document.getElementById('name');
-    var address= document.getElementById('address');
-    var mobile= document.getElementById('mobile');
-    var typeofservice= document.getElementById('typeofservice');
 
+    const name= document.getElementById('name');
+    const address= document.getElementById('address');
+    const mobile= document.getElementById('mobile');
+    const typeofservice= document.getElementById('typeofservice');
+    const fom = document.getElementById('form');
+
+    FormData.addEventListener('submit', (e)=>) {
+        e.preventDefault();
+    }
 
     if(name.value ==''){
-        alert('Name cannot be blank');
+        setErrorfor(name,'Name cannot be blank');
         name.focus();
     }
     if(address.value ==''){
@@ -21,7 +25,7 @@ function validate(){
         alert('Select a type of service')
         typeofservice.focus();
     }
-    alert('Thank you for booking with us');
+    Push.Message('Thank you for booking with us');
 }
 
 
