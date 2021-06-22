@@ -4,15 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/jpg" href="https://image.flaticon.com/icons/png/512/3439/3439633.png"/>
   <link href="ServiceProviders.css" rel="stylesheet">
+  <script src="service.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <title>Service provider</title>
 </head>
 <body>
   <nav>
     <div class="navbar">
       <div class="logosection">
-          <div><img src="/assets/DOBI POPOTE logo.png" alt="" width="80px" height="80px"></div>
-      </div>
+          <div><img src="./assets/DOBI POPOTE logo.png" alt="" width="80px" height="80px"></div>
+                </div>
       <div class="menuitems">
           <div><a href="#">Home</a></div>
           <div><a href="#">About</a></div>
@@ -24,14 +27,43 @@
   
 <!--Form begins here-->
 <form>
+
+<div class="container">
+  <div id="name">
 <label for="fname">Name</label>
 <input type="text" id="fname" name="fname" value=""><br>
+</div>
+
+<div id="phone">
 <label for="number">Phone Number</label>
 <input type="tel" id="number" name="" value=""><br>
-<label for="fname">Type of service</label>
-<input type="text" id="fname" name="fname" value=""><br>
-<label for="fname">Location</label>
-<input type="text" id="fname" name="fname" value="">
+</div>
+
+<div id="type">
+<label for="service">Type of service</label>
+<input type="text" id="service" name="service" value=""><br>
+</div>
+
+<div id="location">
+<label for="local">Location</label>
+<input type="text" id="local" name="local" value=""><br>
+</div>
+
+</div>
+
+<div class="ppic">
+  <img src="./assets/icon.jpeg" alt="Profile pic" id="image" width="200" onclick="makeimg()";><br>
+  <label for="image">Upload your image</label>
+  <input type="file" oninput="previewfile()" accept="image/*" id="file"/>
+    </div>
+
+<!--image section-->
+<div class="image">
+<!-- <image class="Profile pic" 
+src="http://cdn.cutestpaw.com/wp-content/uploads/2012/07/l-Wittle-puppy-yawning.jpg"> -->
+  
+</div>
+
 
 </form>
 

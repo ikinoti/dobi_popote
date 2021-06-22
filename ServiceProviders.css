@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+  margin: auto;
+}
 .navbar{
   display: flex;
   width: 100%;
@@ -27,22 +31,98 @@
   justify-content: space-evenly;
   width: 50%;
 }
+
 /* form styling*/
 form{
-  padding: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  padding: 150px;
   
-  
+
 }
-input{
-  width: 30%;
+#file{
+  display: none;
+}
+
+img{
+  
+  border: 1px solid black;
+  border-radius: 20%;
+}
+
+.container input {
+  width: 50%;
 }
 input[type=text]{
   padding: 10px 20px;
   margin: 10px 15px;
+  border: 2px solid black;
 }
 input[type=tel]{
   padding: 10px 20px;
   margin: 10px 15px;
+  border: 2px solid black;
+}
+.ppic{
+  text-align: center;
+}
+
+/* divs under form styles*/
+#name input{
+  margin-left: 75px;
+}
+
+#phone input{
+  margin-left: 17px;
+}
+
+#location input{
+  margin-left: 56px;
+}
+
+/* Styling the profile */
+.profile-pic {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+}
+
+.file-upload {
+  display: none;
+
+}
+.circle {
+  
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: 8px solid black;
+  position: absolute;
+  top: 72px;
+}
+img {
+  max-width: 100%;
+  height: 100%;
+}
+.p-image {
+position: absolute;
+top: 200px;
+right: 5px;
+color: #666666;
+transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+font-size: 1.2em;
+}
+
+.upload-button:hover {
+transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+color: #999;
 }
 
 
