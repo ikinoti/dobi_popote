@@ -11,7 +11,7 @@ body{
     width: 100%;
     justify-content: center;
     background-color: #18A0FB;
-    padding: 30px 30px 30px 30px;
+    padding: 5px;
     
     
 }
@@ -22,13 +22,16 @@ body{
     text-decoration: none;
     font-size: 30px;
     margin-top: 0px;   
-
 }
 .menuitems div:hover{
-    
-    font-size: 40px;
-    background-color: azure;
+    padding: 5px;
+    /* font-size: 40px; */
+    background-color: rgb(170, 179, 179);
     color: #18A0FB;
+}
+.menuitems div > .active{
+    background-color: lightgray;
+    border-radius: 2px;
 }
 .logosection{
     width: 50%;
@@ -50,7 +53,7 @@ body{
     padding-top: 40px;
     color: white;
     font-size: 42px; 
-    background-image: url(/assets/bg1.png);
+    background-image: url(./assets/bg1.png);
     background-attachment: fixed;
 
     
@@ -85,11 +88,19 @@ body{
 
 
 }
+.ld a{
+    text-decoration: none;
+    color: black;
+}
+.ld:hover{
+    padding: 10px;
+}
 .button:hover{
     background-color: #18A0FB;
     color: white;
     box-shadow: solid 5px 5px 5px 5px red;
 }
+
 .btns{
     display: flex;
     justify-content: space-evenly;
@@ -98,7 +109,7 @@ body{
 }
 /* Subscribe section */
 .subscribe{
-    background-image: url(/assets/washingmachine.jpg);
+    background-image: url(./assets/washingmachine.jpg);
     text-align: center;
     padding-bottom: 50px;
     padding-top:50px;
