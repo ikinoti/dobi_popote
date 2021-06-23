@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Request Service</title>
+  <link rel="stylesheet" href="requestService.css">
+  <script src="requestService.js"></script>
+  <link rel="shortcut icon" type="image/jpg" href="https://image.flaticon.com/icons/png/512/3439/3439633.png"/>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>    
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logosection">
+            <div><img src="./assets/DOBI POPOTE logo.png" alt="" width="80px" height="80px"></div>
+        </div>
+        <div class="menuitems">
+            <div><a href="#">Home</a></div>
+            <div><a href="#">About</a></div>
+            <div> <a href="#">Services</a></div>
+            <div>  <a href="contactus.html">Contact Us</a></div>
+        </div>
+    </div>
+    <div id="big">
+    <div id="topic">
+        <p>Services Request Form</p>
+    </div>
+   
+   
+
+    
+        <form action="" id="formm" >
+
+                <div id="tabs">                  
+                    <div id="name-address">    
+                        <div class="f1">
+                         <label for="name" > Name </label> 
+                          <input type="textbox" placeholder="  enter your name here" id="name" > 
+                        </div>  
+                        <div class="fi">     
+                          <label for="address">Address</label>   
+                          <input type="text" placeholder=" add your address here" id="address" > <br>
+                        </div>
+                    </div>   
+                <div id="mobile-type">
+                    <div class="f1">
+                         <label for="Email">Email</label>
+                           <input type="email" placeholder="   enter your email"  id="email" >  
+                    </div>  
+                    <div class="f1">          
+                           <label for="typeofservice"> Type of service </label>
+                        <input list="type of service" name="nameofservice" id="typeofservice"  >
+                        <datalist id="type of service">
+                            <option value="bedsheets and duvet"></option>
+                            <option value="jeans, khaki, shirts and t-shirts"></option>
+                            <option value="suits"></option>
+                            <option value="general house cleaning"></option>
+                        </datalist><br>
+                    </div>     
+                 </div>   
+            </div>                                                                              
+            <div id="describe">
+                <label>Describe your expectations: </label>
+                  <input type="text"      id="expectations" >
+            
+               
+            </div> 
+            <div id="button" onclick="return validator(), us()"><button>Submit </button>
+            </div>
+        </form>      
+    </div>   
+    <footer>
+          <h1>Contact Us</h1>
+            <div class="submain">
+               <div class="sub1">
+              <h2>Visit Us Today</h2>
+           <p>
+               3rd Floor <br>
+                Ngong Lane plaza <br>
+                ngong road- Nairobi
+            </p>
+             </div>
+            <div class="sub2">
+            <h2>Call Us</h2>
+           <p>
+                0726 832 007 <br>
+                 0726 832 007 <br>
+                0726 832 007 <br>
+            </p>
+            </div>
+            <div >
+                <h2>Email Us Today</h2>
+                <p>
+                  Allanlimo02@gmail.com <br>
+                  Allanlimo02@gmail.com <br>
+                  Allanlimo02@gmail.com <br>
+                </p>
+            </div>
+             </div>
+                   ©2021 | All rights reserved
+    </footer>
+</body>   
+</html>
