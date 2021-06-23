@@ -4,6 +4,7 @@ function validater(){
     var sName= document.getElementById('lname');
     var mail = document.getElementById('email');
     var phone= document.getElementById('phone');
+    var address = document.getElementById()
 
 // if (fName.value == '' || sName)
 
@@ -27,11 +28,26 @@ function validater(){
         alert('Dear '+fName.value+' '+'Enter your Email address')
         mail.focus();
         return false;
-
-
     }
+    if(add)
     
 
-    alert('Thank you '+fName.value+'For submitting this form')
+    alert('Thank you '+fName.value+'\n We shall contact you soon')
      return true;
 };
+
+////////////////////////////////////
+
+function newsletter(){
+    var email=document.getElementById('subscribe');
+    if(email.value==''){
+        alert('Dear user, kindly fill your email \n to join our mailing list');
+        return false;
+        mail.focus
+    
+    }
+    alert('Thank you for subscribing to our newsletter');
+    return true;
+}
+
+

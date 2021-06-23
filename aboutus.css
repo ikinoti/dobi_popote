@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    font-family: poppins;
+    font-family: Poppins;
 }
 /* navbar section starts here */
 .navbar{
@@ -63,6 +63,7 @@ font-weight: 100;
     top: 567px;
     padding: 50px 0px 30px 30px;
     border-radius: 50%;
+    
 }
 .abttxt{
     padding: 200px 300px 30px 30px;
@@ -70,7 +71,21 @@ font-weight: 100;
 }
 
 /* Infographics starts here */
-
+.in{
+    background-color: cadetblue;
+    padding: 20px;
+}
+.infographics{
+    display: flex;
+    text-align: center;
+    width: 70%;
+    margin-left:15% ;
+    
+}
+.info1, .info2, .info3, .info4{
+    color: white;
+    padding: 20px;
+}
 
 
 /* footer styling starts here */
