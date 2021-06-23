@@ -16,3 +16,39 @@ function previewfile(){
     reader.readAsDataURL(file);
   }
 }
+
+function validate(){
+  var fname = document.getElementById('fname');
+  var pnumber = document.getElementById('pnumber'); 
+  var service= document.getElementById('service');
+  var local = document.getElementById('local');
+
+  if(fname.value==''){
+    onError(fname,'')
+  }
+    else {
+      onSuccess(pnumber)
+    }
+
+    
+  }
+  if (pnumber.value==''){
+    onError(pnumber,'')
+  }
+  else {
+    onSuccess(service)
+  }
+  if(service.value==''){
+    onError(service,'')
+  }
+  else {
+    onSuccess(local)
+  }
+  if(local.value==''){
+    onError(local,'')
+  }
+  else {
+    onSuccess()
+  }
+  alert('Thank you' +fname.value)
+
