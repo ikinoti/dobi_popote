@@ -94,7 +94,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin: 70px;
-    background-image: url(/assets/bg3.webp);
+    background-image: url(/);
 }
 /* Subscribe section */
 .subscribe{
