@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/jpg" href="https://image.flaticon.com/icons/png/512/3439/3439633.png"/>
   <title>Service Provider</title>
   <link rel="stylesheet" href="service.css">
 </head>
 <body>
-  <div class="container">
+  <div class="cont">
     <!-- navbar -->
     <div class="navbar">
       <div class="logosection">
@@ -23,195 +24,188 @@
   </div>
 
   <!-- location part -->
-    <div id="location">
-      <form>
-        <label for="location">Pick your location</label>
-        <select name="location">
-          <option value="none" selected>None</option>
-          <option value="Bahati">Bahati</option>
-          <option value="Embakasi">Embakasi</option>
-          <option value="Kasarani">Kasarani</option>
-          <option value="Kilimani">Kilimani</option>
-          <option value="Muthaiga">Muthaiga</option>
-          <option value="Nyayo Estate">Nyayo Estate</option>
-          <option value="Pangani">Pangani</option>
-          <option value="Starehe">Starehe</option>
-          <option value="Thika">Thika</option>
-          <option value="Other">Other</option>
-        </select>
-      </form>
-    </div>
+  
+  <div class="filterBtns">
+    <h2>Select your location</h2>
+    <button class="btn active" onclick="filterSelection('all')">Show all</button>
+    <button class="btn" onclick="filterSelection('bahati')">Bahati</button>
+    <button class="btn" onclick="filterSelection('kasarani')">Kasarani</button>
+    <button class="btn" onclick="filterSelection('kilimani')">Kilimani</button>
+    <button class="btn" onclick="filterSelection('muthaiga')">Muthaiga</button>
+    <button class="btn" onclick="filterSelection('thika')">Thika</button>
+    <button class="btn" onclick="filterSelection('ngong')">Ngong Road</button> 
+  </div>
 
-    <div id="services">
-      <div class="serviceProvider">
+    <div class="container">
+      <div class="filterElements kasarani">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: kasarani</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
 
-      <div class="serviceProvider">
+      <div class="filterElements ngong">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Ngong road</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
-      <div class="serviceProvider">
+      <div class="filterElements thika">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Thika</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
-      <div class="serviceProvider">
+      <div class="filterElements muthaiga">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Muthaiga</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
-      <div class="serviceProvider">
+      <div class="filterElements kasarani">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Kasarani</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
     </div>
-
-    <div id="services">
-      <div class="serviceProvider">
+      <!-- remove top and bottom div -->
+    <div class="container">
+      <div class="filterElements muthaiga">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: muthaiga</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
 
-      <div class="serviceProvider">
+      <div class="filterElements kilimani">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Kilimani</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
-      <div class="serviceProvider">
+      <div class="filterElements thika">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Thika</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
-      <div class="serviceProvider">
+      <div class="filterElements bahati">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Bahati</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
-      <div class="serviceProvider">
+      <div class="filterElements muthaiga">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Muthaiga</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
     </div>
-    <div id="services">
-      <div class="serviceProvider">
+    <div class="container">
+      <div class="filterElements ngong">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Ngong Road</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
 
-      <div class="serviceProvider">
+      <div class="filterElements kasarani">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Kasarani</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
-      <div class="serviceProvider">
+      <div class="filterElements kasarani">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Kasarani</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
-      <div class="serviceProvider">
+      <div class="filterElements thika">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: Thika</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
       </div>
-      <div class="serviceProvider">
+      <div class="filterElements muthaiga">
         <div id="provImg">
           <img src="./assets/p1.jpg" alt="">
         </div>
         <div id="provInfo">
           <p>Name: cleaner 1</p>
-          <p>Location: KItengela</p>
+          <p>Location: muthaiga</p>
           <p>Service Fee/Hr: Ksh.500</p>
           <button><a href="#">Request</a></button>
         </div>
@@ -251,5 +245,7 @@
   </footer>
   <!--Footer ends here-->
   </div>
+
+  <script src="service.js"></script>
 </body>
 </html>
