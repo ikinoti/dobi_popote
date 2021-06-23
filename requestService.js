@@ -32,8 +32,9 @@ function validate(){
         describe.focus();
         return false;
     }
-        alert('Thank you for booking with us');
-        return true;
+            alert('Thank you for booking with us');
+            return true;
+        
+
+        
   };
-
-

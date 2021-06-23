@@ -152,4 +152,9 @@ button{
     color: white;
     
 }
+body{
+    background-image: url(./assets/bagkground.png);
+    background-position-x: 100%;
+    background-size: cover;
+}
 
