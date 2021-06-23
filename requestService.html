@@ -18,40 +18,35 @@
             <div><img src="./assets/DOBI POPOTE logo.png" alt="" width="80px" height="80px"></div>
         </div>
         <div class="menuitems">
-            <div><a href="#">Home</a></div>
-            <div><a href="#">About</a></div>
-            <div> <a href="#">Services</a></div>
+            <div><a href="index.html">Home</a></div>
+            <div><a href="aboutus.html">About</a></div>
+            <div> <a class="activeb" href="service.html">Services</a></div>
             <div>  <a href="contactus.html">Contact Us</a></div>
         </div>
     </div>
     <div id="big">
-    <div id="topic">
-        <p>Services Request Form</p>
-    </div>
-   
-   
-
-    
+        <div id="topic">
+            <p>Services Request Form</p>
+        </div>
         <form action="" id="formm" >
-
-                <div id="tabs">                  
-                    <div id="name-address">    
-                        <div class="f1">
-                         <label for="name" > Name </label> 
-                          <input type="textbox" placeholder="  enter your name here" id="name" > 
-                        </div>  
-                        <div class="fi">     
-                          <label for="address">Address</label>   
-                          <input type="text" placeholder=" add your address here" id="address" > <br>
-                        </div>
-                    </div>   
+            <div id="tabs">                  
+                <div id="name-address">    
+                    <div class="f1">
+                        <label for="name" > Name </label> 
+                        <input type="textbox" placeholder="  enter your name here" id="name" > 
+                    </div>  
+                    <div class="f1">     
+                        <label for="address">Address</label>   
+                        <input type="text" placeholder=" add your address here" id="address" > <br>
+                    </div>
+                </div>   
                 <div id="mobile-type">
                     <div class="f1">
-                         <label for="Email">Email</label>
-                           <input type="email" placeholder="   enter your email"  id="email" >  
+                        <label for="Email">Email</label>
+                        <input type="email" placeholder="   enter your email"  id="email" >  
                     </div>  
                     <div class="f1">          
-                           <label for="typeofservice"> Type of service </label>
+                        <label for="typeofservice"> Type of service </label>
                         <input list="type of service" name="nameofservice" id="typeofservice"  >
                         <datalist id="type of service">
                             <option value="bedsheets and duvet"></option>
@@ -60,13 +55,11 @@
                             <option value="general house cleaning"></option>
                         </datalist><br>
                     </div>     
-                 </div>   
+                </div>   
             </div>                                                                              
             <div id="describe">
                 <label>Describe your expectations: </label>
-                  <input type="text"      id="expectations" >
-            
-               
+                <input type="text"      id="expectations" >
             </div> 
             <div id="button" onclick="return validator(), us()"><button>Submit </button>
             </div>

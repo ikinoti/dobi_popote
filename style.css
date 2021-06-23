@@ -24,12 +24,13 @@ body{
     margin-top: 0px;   
 }
 .menuitems div:hover{
-    padding: 5px;
-    /* font-size: 40px; */
-    background-color: rgb(170, 179, 179);
+    padding: 3px;
+    font-size: 40px;
+    background-color: lightgray;
+    border-radius: 2px;
     color: #18A0FB;
 }
-.menuitems div > .active{
+.menuitems div > .activeb{
     background-color: lightgray;
     border-radius: 2px;
 }
@@ -95,11 +96,11 @@ body{
 .ld:hover{
     padding: 10px;
 }
-.button:hover{
+/* .button:hover{
     background-color: #18A0FB;
     color: white;
     box-shadow: solid 5px 5px 5px 5px red;
-}
+} */
 
 .btns{
     display: flex;
