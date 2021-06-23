@@ -31,5 +31,5 @@ function validator(){
         describe.focus();
         return false;
     }
-    alert('Thank you for booking  with us');
+    alert('Thank you  '+name.value +' for booking  with us');
 }
