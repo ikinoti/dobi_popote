@@ -1,31 +1,39 @@
+function validate(){
+    var name= document.getElementById('name');
+    var address= document.getElementById('address');
+    var email= document.getElementById('email');
+    var typeofservice= document.getElementById('typeofservice');
+    var describe = document.getElementById('describe');
+    var submit=document.getElementById('submit');
 
-    const name= document.getElementById('name');
-    const address= document.getElementById('address');
-    const mobile= document.getElementById('mobile');
-    const typeofservice= document.getElementById('typeofservice');
-    const fom = document.getElementById('form');
-
-    FormData.addEventListener('submit', (e)=>) {
-        e.preventDefault();
-    }
 
     if(name.value ==''){
-        setErrorfor(name,'Name cannot be blank');
+        alert('Name cannot be blank');
         name.focus();
+        return false;
     }
     if(address.value ==''){
         alert('Addres cannot be blank');
         address.focus();
+        return false;
     }
     if(mobile.value ==''){
-        alert('Mobile number cannot be blank')
+        alert('email cannot be blank');
         mobile.focus();
+        return false;
     }
     if(typeofservice.value ==''){
-        alert('Select a type of service')
+        alert('Select a type of service');
         typeofservice.focus();
+        return false;
     }
-    Push.Message('Thank you for booking with us');
-}
+    if(describe ==''){
+        alert('this section cannnot be empty');
+        describe.focus();
+        return false;
+    }
+        alert('Thank you for booking with us');
+        return true;
+  };
 
 
