@@ -1,13 +1,12 @@
-function validate(){
+function validator(){
     var name= document.getElementById('name');
     var address= document.getElementById('address');
     var email= document.getElementById('email');
     var typeofservice= document.getElementById('typeofservice');
     var describe = document.getElementById('describe');
-    var submit=document.getElementById('submit');
+    
 
-
-    if(name.value ==''){
+    if(name.value.trim() ==''){
         alert('Name cannot be blank');
         name.focus();
         return false;
@@ -17,7 +16,7 @@ function validate(){
         address.focus();
         return false;
     }
-    if(mobile.value ==''){
+    if(email.value ==''){
         alert('email cannot be blank');
         mobile.focus();
         return false;
@@ -32,9 +31,5 @@ function validate(){
         describe.focus();
         return false;
     }
-            alert('Thank you for booking with us');
-            return true;
-        
-
-        
-  };
+    alert('Thank you for booking  with us');
+}
