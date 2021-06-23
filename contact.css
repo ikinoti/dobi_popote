@@ -130,3 +130,27 @@ footer h1{
 }
 
 /* Footer stylling ends here */
+
+@media screen and (max-width: 992px) {
+    body{
+      font-size: 12px;
+    }
+    .logosection{
+      display: none;
+    }
+    .menuitems{
+      display: flex;
+      flex-direction: column;
+    }
+    .filterBtns{
+      font-size: medium;
+    }
+    .filterBtns .btn{
+      font-size: 12px;
+      padding: 3px;
+    }
+    .submain{
+      display: flex;
+      flex-direction: column;
+    }
+  }
