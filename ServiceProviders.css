@@ -7,18 +7,24 @@ body{
   width: 100%;
   justify-content: center;
   background-color: #18A0FB;
-  padding: 30px 30px 30px 30px;
+  padding: 5px;
 }
 .navbar a{
   padding: 15px;
-  color: white;
+  color: rgb(73, 53, 53);
   text-decoration: none;
   font-size: 30px;
   margin-top: 0px;
 }
 .menuitems div:hover{
-  background-color: aliceblue;
+  padding: 5px;
+  font-size: 40px;
+  background-color: lightgray;
   color: #18A0FB;
+}
+.menuitems div > .activeb{
+  background-color: lightgray;
+  border-radius: 2px;
 }
 .logosection{
   width: 50%;
