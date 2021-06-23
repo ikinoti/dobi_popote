@@ -144,6 +144,10 @@ footer h1{
     .abttxt{
         text-align: center;
     }
+    .infographics{
+        display: flex;
+        flex-direction: column;
+    }
     .submain{
       display: flex;
       flex-direction: column;
