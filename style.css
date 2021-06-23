@@ -15,21 +15,20 @@ body{
     
     
 }
+
 .navbar a{
     padding: 15px;
-    color: white;
+    /* color: white; */
     text-decoration: none;
     font-size: 30px;
-    margin-top: 0px;
-    
-    
+    margin-top: 0px;   
 
 }
 .menuitems div:hover{
-    background-color: blue;
-    color: #18A0FB;
     
-
+    font-size: 40px;
+    background-color: azure;
+    color: #18A0FB;
 }
 .logosection{
     width: 50%;
@@ -41,6 +40,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 50%;
+    align-items: center;
+    
 }
 /* menu section ends here */
 
@@ -59,6 +60,7 @@ body{
 }
 .welcome img{
     border-radius: 50%;
+    text-transform: capitalize;
 }
 #tagline{
     padding-top: -30px;
@@ -145,4 +147,30 @@ footer h1{
 .submain h2{
     font-weight: 100;
 }
+
+/* END OT FOOTER */
+
+@media screen and (max-width: 992px) {
+    body{
+      font-size: 12px;
+    }
+    .logosection{
+      display: none;
+    }
+    .menuitems{
+      display: flex;
+      flex-direction: column;
+    }
+    .filterBtns{
+      font-size: medium;
+    }
+    .filterBtns .btn{
+      font-size: 12px;
+      padding: 3px;
+    }
+    .submain{
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
