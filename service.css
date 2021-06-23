@@ -49,20 +49,36 @@ body{
 }
 
 /* services */
-#services{
+.filterBtns{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.filterBtns .btn{
+  padding: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.container{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.serviceProvider{
+.filterElements{
   border: 2px solid black;
   border-radius: 10px;
-  width: 18%;
+  /* width: 18%; */
   text-align: center;
   padding: 20px;
   margin: 15px 100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+  /* flex-basis: 33%; */
+  display: none;
+}
+.show{
+  display: block;
 }
 #provImg > img{
   width: 75%;
