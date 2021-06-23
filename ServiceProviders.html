@@ -28,44 +28,48 @@
 <!--Form begins here-->
 <form>
 
-<div class="container">
-  <div id="name">
-<label for="fname">Name</label>
-<input type="text" id="fname" name="fname" value=""><br>
-</div>
+<div class="both">
+    <div class="container">
+            <div id="name">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="fname" value=""><br>
+          </div>
 
-<div id="phone">
-<label for="number">Phone Number</label>
-<input type="tel" id="number" name="" value=""><br>
-</div>
+          <div id="phone">
+            <label for="number">Phone Number</label>
+            <input type="tel" id="number" name="" value=""><br>
+          </div>
 
-<div id="type">
-<label for="service">Type of service</label>
-<input type="text" id="service" name="service" value=""><br>
-</div>
+          <div id="type">
+            <label for="service">Type of service</label>
+            <input type="text" id="service" name="service" value=""><br>
+          </div>
 
-<div id="location">
-<label for="local">Location</label>
-<input type="text" id="local" name="local" value=""><br>
-</div>
+          <div id="location">
+          <label for="local">Location</label>
+          <input type="text" id="local" name="local" value=""><br>
+          </div>
 
-</div>
-
-<div class="ppic">
-  <img src="./assets/icon.jpeg" alt="Profile pic" id="image" width="200" onclick="makeimg()";><br>
-  <label for="image">Upload your image</label>
-  <input type="file" oninput="previewfile()" accept="image/*" id="file"/>
     </div>
 
-<!--image section-->
-<div class="image">
-<!-- <image class="Profile pic" 
-src="http://cdn.cutestpaw.com/wp-content/uploads/2012/07/l-Wittle-puppy-yawning.jpg"> -->
-  
+    <div class="ppic">
+      <img src="./assets/icon.jpeg" alt="Profile pic" id="image" height="200" width="200" onclick="makeimg()";><br>
+      <label for="image">Upload your image</label>
+      <input type="file" oninput="previewfile()" accept="image/*" id="file"/><br>
+       <input type="button" value="submit">
+    </div>
+
+
+
+    <!--image section-->
+    <div class="image">
+   
+      
+    </div>
+
 </div>
-
-
 </form>
+
 
 </body>
 <footer>

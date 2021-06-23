@@ -34,14 +34,37 @@ body{
 
 /* form styling*/
 form{
-  display: flex;
-  justify-content: space-evenly;
+  
+  
   align-items: center;
   cursor: pointer;
-  padding: 150px;
   
-
+  background-image: url(./assets/bagkground.png);
+  
+  /*scaling the bg image*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 50px;
+  margin: 0;
 }
+.both{
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+  background-color: white;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  opacity: 75%;
+  
+  
+}
+
+
+
+
 #file{
   display: none;
 }
@@ -51,22 +74,40 @@ img{
   border: 1px solid black;
   border-radius: 20%;
 }
+.container{
+  padding: 20px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10%;
+  background-color: #6bbff7;
+  
+}
 
 .container input {
   width: 50%;
 }
 input[type=text]{
   padding: 10px 20px;
-  margin: 10px 15px;
-  border: 2px solid black;
+  margin: 20px 15px;
+  border: none;
+  background-color: #f1f1f1;
 }
 input[type=tel]{
   padding: 10px 20px;
-  margin: 10px 15px;
-  border: 2px solid black;
+  margin: 20px 15px;
+  border: none;
+  background-color: #f1f1f1;
 }
 .ppic{
   text-align: center;
+  
+}
+.ppic [type=button]{
+  background-color: #6bbff7;
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
 }
 
 /* divs under form styles*/
