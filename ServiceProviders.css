@@ -1,0 +1,227 @@
+body{
+  overflow-x: hidden;
+  margin: auto;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #18A0FB;
+  padding: 30px 30px 30px 30px;
+}
+.navbar a{
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.menuitems div:hover{
+  background-color: aliceblue;
+  color: #18A0FB;
+}
+.logosection{
+  width: 50%;
+}
+.logosection img{
+  border-radius: 50%;
+}
+.menuitems{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+}
+
+/* form styling*/
+form{
+  
+  
+  align-items: center;
+  cursor: pointer;
+  
+  background-image: url(./assets/bagkground.png);
+  
+  /*scaling the bg image*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 70px;
+  margin: 0;
+}
+.both{
+  display: flex;
+  width: 60%;
+  margin-left: 18%;
+  background-color: white;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  opacity: 75%;
+  
+  
+}
+
+
+
+
+#file{
+  display: none;
+}
+
+img{
+  
+  border: 1px solid black;
+  border-radius: 20%;
+}
+.container{
+  padding: 20px;
+  border: none;
+  border-radius: 10%;
+  background-color: #6bbff7;
+  
+}
+
+.container input {
+  width: 50%;
+}
+input[type=text]{
+  padding: 10px 20px;
+  margin: 20px 15px;
+  border: none;
+  background-color: #f1f1f1;
+}
+input[type=tel]{
+  padding: 10px 20px;
+  margin: 20px 15px;
+  border: none;
+  background-color: #f1f1f1;
+}
+select{
+  padding: 10px 54px;
+  margin: 20px 25px;
+  border: none;
+  background-color: #f1f1f1;
+}
+.ppic{
+  text-align: center;
+  padding: 60px;
+}
+.ppic [type=submit]{
+  background-color: #6bbff7;
+  width: 100%;
+  padding: 10px ;
+  margin-top: 30px;
+  border: none;
+}
+
+/* divs under form styles*/
+#name input{
+  margin-left: 75px;
+}
+
+#phone input{
+  margin-left: 17px;
+}
+
+#location select{
+  margin-left: 56px;
+}
+
+/* Styling the profile */
+.profile-pic {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+}
+
+.file-upload {
+  display: none;
+
+}
+.circle {
+  
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: 8px solid black;
+  position: absolute;
+  top: 72px;
+}
+img {
+  max-width: 100%;
+  height: 100%;
+}
+.p-image {
+position: absolute;
+top: 200px;
+right: 5px;
+color: #666666;
+transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+font-size: 1.2em;
+}
+
+.upload-button:hover {
+transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+color: #999;
+}
+
+
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  background-color: #18A0FB;
+  color: wheat;
+  padding-bottom: 70px;
+  font-size: 18px;
+}
+footer h1{
+  font-weight: 100;
+}
+.submain{
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  margin-left: 10%;
+}
+.submain h2{
+  font-weight: 100;
+}
+@media screen and (max-width: 992px) {
+  body{
+    font-size: 12px;
+  }
+  .logosection{
+    display: none;
+  }
+  .menuitems{
+    display: flex;
+    flex-direction: column;
+  }
+  .both{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+  }
+  .ppic{
+    margin: 20px;
+  }
+  /* .filterBtns{
+    font-size: medium;
+  }
+  .filterBtns .btn{
+    font-size: 12px;
+    padding: 3px;
+  } */
+  .submain{
+    display: flex;
+    flex-direction: column;
+  }
+}
