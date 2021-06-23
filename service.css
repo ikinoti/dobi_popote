@@ -1,6 +1,11 @@
 body{
   overflow-x: hidden;
   margin: auto;
+  background-image: url('./assets/background1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
 }
 /* navbar section starts here */
 .navbar{
@@ -8,7 +13,7 @@ body{
   width: 100%;
   justify-content: center;
   background-color: #18A0FB;
-  padding: 30px 30px 30px 30px;
+  padding: 5px;
 }
 .navbar a{
   padding: 15px;
@@ -30,6 +35,7 @@ body{
 .menuitems{
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 50%;
 }
 /* menu section ends here */
@@ -60,21 +66,31 @@ body{
   margin-bottom: 50px;
   cursor: pointer;
   font-size: 20px;
+  background-color: rgb(210, 235, 250)
+}
+.btn:hover{
+  background-color: rgb(84, 120, 143)
+}
+.btn.active{
+  background-color: rgb(4, 33, 51);
+  color: bisque;
 }
 .container{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
 }
 .filterElements{
+  background-color: rgba(59, 96, 145, 0.3);
   border: 2px solid black;
   border-radius: 10px;
-  /* width: 18%; */
+  width: 200px;
   text-align: center;
   padding: 20px;
   margin: 15px 100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* flex-basis: 33%; */
   display: none;
 }
 .show{
@@ -116,3 +132,27 @@ footer h1{
   font-weight: 100;
 }
 /* Footer stylling ends here */
+
+@media screen and (max-width: 992px) {
+  body{
+    font-size: 12px;
+  }
+  .logosection{
+    display: none;
+  }
+  .menuitems{
+    display: flex;
+    flex-direction: column;
+  }
+  .filterBtns{
+    font-size: medium;
+  }
+  .filterBtns .btn{
+    font-size: 12px;
+    padding: 3px;
+  }
+  .submain{
+    display: flex;
+    flex-direction: column;
+  }
+}
