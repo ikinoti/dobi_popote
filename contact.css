@@ -75,6 +75,7 @@ body{
 }
 button{
     margin-top: 30px;
+    margin-bottom: 30px;
     background-color: red;
     color: white;
     border-radius: 10px;

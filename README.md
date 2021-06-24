@@ -15,7 +15,7 @@ This was week four group project, whereby we saw a propblem and created a soluti
 
 ## Setup/Installation Requirements
 
-* Live link to view the project <a href="#">View Anitas Kitchen</a>
+* Live link to view the project <a href="#">Dobi Popote</a>
 ## Some Screenshots
 <img src="./assets/1.png" alt="screenshot" />
 <img src="./assets/2.png" alt="screenshot" />

@@ -6,7 +6,6 @@ function validater(){
     var phone= document.getElementById('phone');
     var address = document.getElementById()
 
-// if (fName.value == '' || sName)
 
     if(fName.value=='' ){
         alert('Dear user, input your first name');
@@ -14,7 +13,7 @@ function validater(){
         return false;
     }
     if(sName.value==''){
-        alert('Dear '+fName.value+' '+sName.value +'Enter your second name');
+        alert('Dear '+fName.value+' \n Enter your second name');
         sName.focus();
         return false;
     }
@@ -29,10 +28,7 @@ function validater(){
         mail.focus();
         return false;
     }
-    if(add)
-    
-
-    alert('Thank you '+fName.value+'\n We shall contact you soon')
+     alert('Thank you '+fName.value+'\n We shall contact you soon')
      return true;
 };
 
