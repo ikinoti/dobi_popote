@@ -15,13 +15,14 @@ This was week four group project, whereby we saw a propblem and created a soluti
 
 ## Setup/Installation Requirements
 
-* Live link to view the project <a href="https://wilsonkinyua.github.io/anitas-kitchen/">View Anitas Kitchen</a>
+* Live link to view the project <a href="#">View Anitas Kitchen</a>
 ## Some Screenshots
-<img src="./img/screenshots/1.png" alt="screenshot" />
-<img src="./img/screenshots/2.png" alt="screenshot" />
-<img src="./img/screenshots/3.png" alt="screenshot" />
-<img src="./img/screenshots/4.png" alt="screenshot" />
-<img src="./img/screenshots/5.png" alt="screenshot" />
+<img src="./assets/1.png" alt="screenshot" />
+<img src="./assets/2.png" alt="screenshot" />
+<img src="./assets/3.png" alt="screenshot" />
+<img src="./assets/4.png" alt="screenshot" />
+<img src="./assets/5.png" alt="screenshot" />
+<img src="./assets/6.png" alt="screenshot" />
 
 ## Known Bugs
  So far so good there are no bugs related to this project 😎
