@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/jpg" href="https://image.flaticon.com/icons/png/512/3439/3439633.png"/>
+  <title>Service Provider</title>
+  <link rel="stylesheet" href="service.css">
+</head>
+<body>
+  <div class="cont">
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="logosection">
+          <div><img src="/assets/DOBI POPOTE logo.png" alt="" width="80px" height="80px"></div>
+      </div>
+
+      <div class="menuitems">
+          <div><a href="index.html">Home</a></div>
+          <div><a href="aboutus.html">About</a></div>
+          <div><a class="activeb" href="#">Services</a></div>
+          <div><a href="contactus.html">Contact Us</a></div>
+      </div>
+  </div>
+
+  <!-- location part -->
+  
+  <div class="filterBtns">
+    <h2>Select your location</h2>
+    <button class="btn active" onclick="filterSelection('all')">Show all</button>
+    <button class="btn" onclick="filterSelection('bahati')">Bahati</button>
+    <button class="btn" onclick="filterSelection('kasarani')">Kasarani</button>
+    <button class="btn" onclick="filterSelection('kilimani')">Kilimani</button>
+    <button class="btn" onclick="filterSelection('muthaiga')">Muthaiga</button>
+    <button class="btn" onclick="filterSelection('thika')">Thika</button>
+    <button class="btn" onclick="filterSelection('ngong')">Ngong Road</button> 
+  </div>
+
+    <div class="container">
+      <div class="filterElements kasarani">
+        <div id="provImg">
+          <img src="./assets/p2.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: kasarani</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements ngong">
+        <div id="provImg">
+          <img src="./assets/p3.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Ngong road</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements thika">
+        <div id="provImg">
+          <img src="./assets/p4.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Thika</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements muthaiga">
+        <div id="provImg">
+          <img src="./assets/b1.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Muthaiga</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements kasarani">
+        <div id="provImg">
+          <img src="./assets/b2.jpeg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Kasarani</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+    <!-- </div>
+
+    <div class="container"> -->
+      <div class="filterElements muthaiga">
+        <div id="provImg">
+          <img src="./assets/b3.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: muthaiga</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements kilimani">
+        <div id="provImg">
+          <img src="./assets/b4.jpeg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Kilimani</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements thika">
+        <div id="provImg">
+          <img src="./assets/k1.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Thika</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements bahati">
+        <div id="provImg">
+          <img src="./assets/k3.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Bahati</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements muthaiga">
+        <div id="provImg">
+          <img src="./assets/k4.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Muthaiga</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+    <!-- </div>
+    <div class="container"> -->
+      <div class="filterElements ngong">
+        <div id="provImg">
+          <img src="./assets/m1.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Ngong Road</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements kasarani">
+        <div id="provImg">
+          <img src="./assets/m2.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Kasarani</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements kasarani">
+        <div id="provImg">
+          <img src="./assets/m3.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Kasarani</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements thika">
+        <div id="provImg">
+          <img src="./assets/t1.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: Thika</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+      <div class="filterElements muthaiga">
+        <div id="provImg">
+          <img src="./assets/t2.jpg" alt="">
+        </div>
+        <div id="provInfo">
+          <p>Name: cleaner 1</p>
+          <p>Location: muthaiga</p>
+          <p>Service Fee/Hr: Ksh.500</p>
+          <button><a href="requestService.html">Request</a></button>
+        </div>
+      </div>
+
+    </div>
+    <!--Footer starts here-->
+    <footer>
+      <h1>Contact Us</h1>
+     <div class="submain">
+         <div class="sub1">
+          <h2>Visit Us Today</h2>
+          <p>
+              3rd Floor <br>
+              Ngong Lane plaza <br>
+              ngong road- Nairobi
+          </p>
+         </div>
+         <div class="sub2">
+          <h2>Call Us</h2>
+          <p>
+              0726 832 007 <br>
+              0726 832 007 <br>
+              0726 832 007 <br>
+             </p>
+         </div>
+         <div >
+             <h2>Email Us Today</h2>
+             <p>
+                 Allanlimo02@gmail.com <br>
+                 gitongakinoti1@gmail.com <br>
+                 danmutua@gmail.com <br>
+                 gathurif@gmail.com
+             </p>
+         </div>
+     </div>
+      ©2021 | All rights reserved
+  </footer>
+  <!--Footer ends here-->
+  </div>
+
+  <script src="service.js"></script>
+</body>
+</html>

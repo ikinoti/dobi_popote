@@ -1,0 +1,165 @@
+body{
+  font-family: poppins;
+  overflow-x: hidden;
+  margin: auto;
+  background-image: url('./assets/background1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+/* navbar section starts here */
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #18A0FB;
+  padding: 5px;
+}
+.navbar a{
+  padding: 15px;
+  color: rgb(73, 53, 53);
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.menuitems div:hover{
+  padding: 5px;
+  font-size: 40px;
+  background-color: lightgray;
+  color: #18A0FB;
+}
+.menuitems div > .activeb{
+  background-color: lightgray;
+  border-radius: 2px;
+}
+.logosection{
+  width: 50%;
+}
+.logosection img{
+  border-radius: 50%;
+}
+.menuitems{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+/* menu section ends here */
+
+#location{
+  font-size: 24px;
+  margin: 20px;
+  text-align: center;
+}
+#location > form > select{
+  margin: 20px;
+  font-size: medium;
+  background-color: lightgray;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* services */
+.filterBtns{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.filterBtns .btn{
+  padding: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgb(210, 235, 250)
+}
+.btn:hover{
+  background-color: rgb(84, 120, 143)
+}
+.btn.active{
+  background-color: rgb(4, 33, 51);
+  color: bisque;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.filterElements{
+  background-color: rgba(59, 96, 145, 0.3);
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  margin: 15px 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+}
+.show{
+  display: block;
+}
+#provImg > img{
+  width: 75%;
+  border: 5px solid lightgray;
+  border-radius: 3px;
+}
+#provInfo > button{
+  padding: 10px;
+  background-color: rgb(210, 235, 250);
+  border-radius: 5px;
+}
+#provInfo > button > a{
+  text-decoration: none;
+  color: black;
+}
+/* footer styling starts here */
+footer {
+  text-align: center;
+  padding-top: 30px;
+  background-color: #18A0FB;
+  color: wheat;
+  padding-bottom: 70px;
+  font-size: 18px;
+}
+footer h1{
+  font-weight: 100;
+}
+.submain{
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  margin-left: 10%;
+}
+.submain h2{
+  font-weight: 100;
+}
+/* Footer stylling ends here */
+
+@media screen and (max-width: 992px) {
+  body{
+    font-size: 12px;
+  }
+  .logosection{
+    display: none;
+  }
+  .menuitems{
+    display: flex;
+    flex-direction: column;
+  }
+  .filterBtns{
+    font-size: medium;
+  }
+  .filterBtns .btn{
+    font-size: 12px;
+    padding: 3px;
+  }
+  .submain{
+    display: flex;
+    flex-direction: column;
+  }
+}
