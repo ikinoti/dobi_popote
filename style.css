@@ -1,0 +1,187 @@
+body{
+    font-family: poppins;
+    overflow-x: hidden;
+    margin: auto;
+    
+    
+}
+/* navbar section starts here */
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #18A0FB;
+    padding: 5px;
+    
+    
+}
+
+.navbar a{
+    padding: 15px;
+    /* color: white; */
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 0px;   
+}
+.menuitems div:hover{
+    padding: 3px;
+    font-size: 40px;
+    background-color: lightgray;
+    border-radius: 2px;
+    color: #18A0FB;
+}
+.menuitems div > .activeb{
+    background-color: lightgray;
+    border-radius: 2px;
+}
+.logosection{
+    width: 50%;
+}
+.logosection img{
+    border-radius: 50%;
+}
+.menuitems{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+    
+}
+/* menu section ends here */
+
+.welcome{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 42px; 
+    background-image: url(./assets/bg1.png);
+    background-attachment: fixed;
+
+    
+}
+.welcome img:hover{
+    opacity: 0.7;
+}
+.welcome img{
+    border-radius: 50%;
+    text-transform: capitalize;
+}
+#tagline{
+    padding-top: -30px;
+    font-size: 28px;
+    color: red;
+    font-family: Pacifico;
+    padding-bottom: 50px;
+    font-weight: 100;
+
+
+}
+
+
+.buttons{
+    margin-top: 50px;
+    
+    background-color:white;
+    color: #18A0FB;
+    border-style: solid red 10px;
+    border-radius: 9px;
+    font-size: 30px;
+
+
+}
+.ld a{
+    text-decoration: none;
+    color: black;
+}
+.ld:hover{
+    padding: 10px;
+}
+/* .button:hover{
+    background-color: #18A0FB;
+    color: white;
+    box-shadow: solid 5px 5px 5px 5px red;
+} */
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px;
+    background-image: url(/);
+}
+/* Subscribe section */
+.subscribe{
+    background-image: url(./assets/washingmachine.jpg);
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top:50px;
+    color: white;
+}
+#submit1{
+    background-color: red;
+    color: white;
+    padding: 20px 50px 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border:none
+}
+#submit1:hover{
+    color: red;
+    background-color: white;
+
+}
+input{
+    padding: 20px 200px 20px 50px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+/* footer section */
+footer {
+    text-align: center;
+    
+    padding-top: 30px;
+    background-color: #18A0FB;
+    color: wheat;
+    padding-bottom: 70px;
+    font-size: 18px;
+}
+footer h1{
+    font-weight: 100;
+}
+.submain{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+.submain h2{
+    font-weight: 100;
+}
+
+/* END OT FOOTER */
+
+@media screen and (max-width: 992px) {
+    body{
+      font-size: 12px;
+    }
+    .logosection{
+      display: none;
+    }
+    .menuitems{
+      display: flex;
+      flex-direction: column;
+    }
+    .filterBtns{
+      font-size: medium;
+    }
+    .filterBtns .btn{
+      font-size: 12px;
+      padding: 3px;
+    }
+    .submain{
+      display: flex;
+      flex-direction: column;
+    }
+  }
