@@ -1,0 +1,22 @@
+/* footer styling starts here */
+footer {
+  text-align: center;
+  padding-top: 30px;
+  background-color: #18A0FB;
+  color: wheat;
+  padding-bottom: 70px;
+  font-size: 18px;
+}
+footer h1{
+  font-weight: 100;
+}
+.submain{
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  margin-left: 10%;
+}
+.submain h2{
+  font-weight: 100;
+}
+/* Footer stylling ends here */
